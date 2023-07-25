@@ -13,8 +13,8 @@ script = ExtResource("1_uguo3")
 texture = ExtResource("2_lhxia")
 hframes = 6
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="Area" type="Area2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area"]
 position = Vector2(0, -1)
 shape = SubResource("RectangleShape2D_cis8d")
